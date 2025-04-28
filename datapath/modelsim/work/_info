@@ -1,0 +1,199 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/software/Quarus19
+vadder
+!s110 1734605563
+!i10b 1
+!s100 5^CB8lPfYGi[3GHXYk^GG1
+Iloj2ETJ_zmO^`Be^2I[=:0
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dE:/fyp3/SingleCycleProcessor/datapath/modelsim
+w1734603421
+8E:/fyp3/SingleCycleProcessor/adder/adder.v
+FE:/fyp3/SingleCycleProcessor/adder/adder.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1734605563.000000
+!s107 E:/fyp3/SingleCycleProcessor/adder/adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/fyp3/SingleCycleProcessor/adder/adder.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+valu
+Z5 !s110 1734605568
+!i10b 1
+!s100 JoMA7P<^5[DR9:N[ee5WQ2
+I=N;X]90`eK8YDDQ[MVVbS2
+R0
+R1
+w1730064985
+8E:/fyp3/SingleCycleProcessor/alu/alu.v
+FE:/fyp3/SingleCycleProcessor/alu/alu.v
+L0 1
+R2
+r1
+!s85 0
+31
+Z6 !s108 1734605568.000000
+!s107 E:/fyp3/SingleCycleProcessor/alu/alu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/fyp3/SingleCycleProcessor/alu/alu.v|
+!i113 1
+R3
+R4
+vdatapath
+Z7 !s110 1734605562
+!i10b 1
+!s100 eRX]7K_lhP<Y;NFE6g9dS3
+Ibg<cW8>MIfL:]QT1LFCdF0
+R0
+R1
+w1730065134
+8E:/fyp3/SingleCycleProcessor/datapath/datapath.v
+FE:/fyp3/SingleCycleProcessor/datapath/datapath.v
+L0 1
+R2
+r1
+!s85 0
+31
+Z8 !s108 1734605562.000000
+!s107 E:/fyp3/SingleCycleProcessor/datapath/datapath.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/fyp3/SingleCycleProcessor/datapath/datapath.v|
+!i113 1
+R3
+R4
+vdatapath_tb
+R7
+!i10b 1
+!s100 bZ]GVMz`FOi6:UI;GB0Yk3
+I9aC2ZLCInWgKR<`F164zG2
+R0
+R1
+w1734430754
+8E:/fyp3/SingleCycleProcessor/datapath/datapath_tb.v
+FE:/fyp3/SingleCycleProcessor/datapath/datapath_tb.v
+L0 1
+R2
+r1
+!s85 0
+31
+R8
+!s107 E:/fyp3/SingleCycleProcessor/datapath/datapath_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/fyp3/SingleCycleProcessor/datapath/datapath_tb.v|
+!i113 1
+R3
+R4
+vextend
+!s110 1734605569
+!i10b 1
+!s100 D`8n^FoQ4fDlhjWl[Q4OS3
+IIe:gTRRiLIo@hl[fWZBhj3
+R0
+R1
+w1730065083
+8E:/fyp3/SingleCycleProcessor/extend/extend.v
+FE:/fyp3/SingleCycleProcessor/extend/extend.v
+L0 1
+R2
+r1
+!s85 0
+31
+R6
+!s107 E:/fyp3/SingleCycleProcessor/extend/extend.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/fyp3/SingleCycleProcessor/extend/extend.v|
+!i113 1
+R3
+R4
+vflopr
+!s110 1734605567
+!i10b 1
+!s100 KJ02UL]4RR1Xa`[9J=mJ`3
+IS<0`nASUX0jmKAIVQ^f510
+R0
+R1
+w1730063086
+8E:/fyp3/SingleCycleProcessor/flipflop/flopr.v
+FE:/fyp3/SingleCycleProcessor/flipflop/flopr.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1734605567.000000
+!s107 E:/fyp3/SingleCycleProcessor/flipflop/flopr.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/fyp3/SingleCycleProcessor/flipflop/flopr.v|
+!i113 1
+R3
+R4
+vmux2
+R5
+!i10b 1
+!s100 7_iYfKF:4Z[YRzk4F:Lg31
+I`YTRT3o9b5gC^_fRZmmB00
+R0
+R1
+w1734417933
+8E:/fyp3/SingleCycleProcessor/mux21/mux2.v
+FE:/fyp3/SingleCycleProcessor/mux21/mux2.v
+L0 1
+R2
+r1
+!s85 0
+31
+R6
+!s107 E:/fyp3/SingleCycleProcessor/mux21/mux2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/fyp3/SingleCycleProcessor/mux21/mux2.v|
+!i113 1
+R3
+R4
+vmux3
+R7
+!i10b 1
+!s100 @CHTXn[ln6:FFcbb>m^b80
+Ie34G>Yig0kZo58DO5[[JF0
+R0
+R1
+w1730063440
+8E:/fyp3/SingleCycleProcessor/mux31/mux3.v
+FE:/fyp3/SingleCycleProcessor/mux31/mux3.v
+L0 1
+R2
+r1
+!s85 0
+31
+R8
+!s107 E:/fyp3/SingleCycleProcessor/mux31/mux3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/fyp3/SingleCycleProcessor/mux31/mux3.v|
+!i113 1
+R3
+R4
+vregfile
+R5
+!i10b 1
+!s100 @egH`j_`d[=THQ7:LC@Xe1
+IC;3B2W22bohZD5cI?jLT]0
+R0
+R1
+w1730064865
+8E:/fyp3/SingleCycleProcessor/regfile/regfile.v
+FE:/fyp3/SingleCycleProcessor/regfile/regfile.v
+L0 1
+R2
+r1
+!s85 0
+31
+R6
+!s107 E:/fyp3/SingleCycleProcessor/regfile/regfile.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/fyp3/SingleCycleProcessor/regfile/regfile.v|
+!i113 1
+R3
+R4

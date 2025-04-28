@@ -1,0 +1,110 @@
+module tb_datapath;
+
+    // Inputs
+    reg clk;
+    reg reset;
+    reg [1:0] ResultSrc;
+    reg PCSrc;
+    reg ALUSrc;
+    reg RegWrite;
+    reg [1:0] ImmSrc;
+    reg [2:0] ALUControl;
+    reg [31:0] Instr;
+    reg [31:0] ReadData;
+
+    // Outputs
+    wire Zero;
+    wire [31:0] PC;
+    wire [31:0] ALUResult;
+    wire [31:0] WriteData;
+
+    // Instantiate the datapath module
+    datapath uut (
+        .clk(clk),
+        .reset(reset),
+        .ResultSrc(ResultSrc),
+        .PCSrc(PCSrc),
+        .ALUSrc(ALUSrc),
+        .RegWrite(RegWrite),
+        .ImmSrc(ImmSrc),
+        .ALUControl(ALUControl),
+        .Zero(Zero),
+        .PC(PC),
+        .Instr(Instr),
+        .ALUResult(ALUResult),
+        .WriteData(WriteData),
+        .ReadData(ReadData)
+    );
+
+    // Clock generation
+    always begin
+        #5 clk = ~clk; // Clock period of 10 time units
+    end
+
+    // Test procedure
+    initial begin
+        // Initialize inputs
+        clk = 0;
+        reset = 0;
+        ResultSrc = 2'b00;
+        PCSrc = 0;
+        ALUSrc = 0;
+        RegWrite = 0;
+        ImmSrc = 2'b00;
+        ALUControl = 3'b000;
+        Instr = 32'b0;
+        ReadData = 32'b0;
+
+        // Display outputs
+        $monitor("Time = %0d | PC = %h, ALUResult = %h, WriteData = %h, Zero = %b, Result = %h", 
+                  $time, PC, ALUResult, WriteData, Zero, WriteData);
+
+        // Test case 1: Reset the datapath
+        reset = 1;
+        #10;
+        reset = 0;
+
+        // Test case 2: Test basic ALU operation (e.g., ADD)
+        Instr = 32'b00000000000000010000000000010011;  // Sample instruction for ALU (e.g., ADD)
+        ALUControl = 3'b000; // Addition
+        ALUSrc = 0;  // Select register file data for ALU input
+        RegWrite = 1;  // Enable register write
+        #10;
+
+        // Test case 3: Test I-type instruction with ALU control for subtraction
+        Instr = 32'b00000000000000010000000000010011;  // Sample instruction for ALU (e.g., ADDI)
+        ALUControl = 3'b001; // Subtraction
+        ALUSrc = 1;  // Select immediate for ALU input
+        RegWrite = 1;  // Enable register write
+        #10;
+
+        // Test case 4: Test branch and PC update (with PCSrc)
+        Instr = 32'b11000110000000000000000000000011;  // Branch instruction (e.g., BEQ)
+        PCSrc = 1;  // Select target address for PC update
+        #10;
+
+        // Test case 5: Test jump and PC update (with Jump)
+        Instr = 32'b11011110000000000000000000000011;  // Jump instruction (e.g., JAL)
+        PCSrc = 1;  // Select target address for PC update
+        #10;
+
+        // Test case 6: Test Memory Read operation (MemRead)
+        Instr = 32'b00000000000000010000000000010011;  // Sample instruction (e.g., LW)
+        RegWrite = 1;  // Enable register write
+        ReadData = 32'hA5A5A5A5;  // Data to write into the register
+        #10;
+
+        // Test case 7: Test different ImmSrc values
+        ImmSrc = 2'b01;  // Test different ImmSrc selection
+        Instr = 32'b00100000000000000000000000000000;  // Sample I-type instruction with different immediate
+        #10;
+
+        // Test case 8: ALU operation with different ALUControl settings (AND)
+        ALUControl = 3'b010;  // AND operation
+        Instr = 32'b00000000000000010000000000010011;  // Sample instruction for ALU
+        #10;
+
+        // End simulation
+        $finish;
+    end
+endmodule

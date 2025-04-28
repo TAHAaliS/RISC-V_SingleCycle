@@ -1,0 +1,84 @@
+# Compile of adder.v was successful.
+# Compile of alu.v was successful.
+# Compile of aludec.v was successful.
+# Compile of controller.v was successful.
+# Compile of dm.v was successful.
+# Compile of datam.v was successful.
+# Compile of datapath.v was successful.
+# Compile of extend.v was successful.
+# Compile of flopr.v was successful.
+# Compile of im2_bb.v was successful.
+# Compile of imem2.v was successful.
+# Compile of maindec.v was successful.
+# Compile of mux2.v was successful.
+# Compile of mux3.v was successful.
+# Compile of regfile.v was successful.
+# Compile of singlcycleP.v was successful.
+# Compile of scpf.v was successful.
+# Compile of altera_mf.v was successful.
+# 18 compiles, 0 failed with no errors.
+vsim -gui work.scpf
+# vsim -gui work.scpf 
+# Start time: 22:42:30 on Nov 01,2024
+# Loading work.scpf
+# Loading work.singlcycleP
+# Loading work.controller
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.datapath
+# Loading work.flopr
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.extend
+# Loading work.alu
+# Loading work.mux3
+# Loading work.imem2
+# Loading work.im2_bb
+# Loading work.altsyncram
+# Loading work.datam
+# Loading work.dm
+# Loading work.altsyncram_body
+# Loading work.ALTERA_DEVICE_FAMILIES
+# Loading work.ALTERA_MF_MEMORY_INITIALIZATION
+add wave -position insertpoint sim:/scpf/*
+force -freeze sim:/scpf/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/scpf/reset 1 0
+run
+force -freeze sim:/scpf/reset 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 23:31:02 on Nov 01,2024, Elapsed time: 0:48:32
+# Errors: 0, Warnings: 0

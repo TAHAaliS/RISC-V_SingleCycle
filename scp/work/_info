@@ -1,0 +1,285 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/software/QUARTUS19
+vadder
+Z0 !s110 1730126184
+!i10b 1
+!s100 [ImTRZgk_DHh2NaBhWYcf3
+IT5:lzGa>5ofP1S9`5zzkc2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dE:/fyp3/scp
+w1730062540
+8E:/fyp3/adder/adder.v
+FE:/fyp3/adder/adder.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1730126184.000000
+!s107 E:/fyp3/adder/adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/fyp3/adder/adder.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+valu
+R0
+!i10b 1
+!s100 JoMA7P<^5[DR9:N[ee5WQ2
+I9gP5`YR@aCdmbQ8@=VDWW2
+R1
+R2
+w1730064985
+8E:/fyp3/alu/alu.v
+FE:/fyp3/alu/alu.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/fyp3/alu/alu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/fyp3/alu/alu.v|
+!i113 1
+R5
+R6
+valudec
+R0
+!i10b 1
+!s100 UU@2IAg2T@`eDT77B]4NX2
+IX]U7IIlm_PYF<B@Km7SSR3
+R1
+R2
+w1730062000
+8E:/fyp3/alu dec/aludec.v
+FE:/fyp3/alu dec/aludec.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/fyp3/alu dec/aludec.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/fyp3/alu dec/aludec.v|
+!i113 1
+R5
+R6
+vcontroller
+!s110 1730126183
+!i10b 1
+!s100 FIXGRS13Jo77<cQB^JK=N0
+I13dSb@=e3Jd7a:oa5d3?M1
+R1
+R2
+w1730062185
+8E:/fyp3/controller/controller.v
+FE:/fyp3/controller/controller.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1730126183.000000
+!s107 E:/fyp3/controller/controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/fyp3/controller/controller.v|
+!i113 1
+R5
+R6
+vdatapath
+R0
+!i10b 1
+!s100 eRX]7K_lhP<Y;NFE6g9dS3
+IL81Me7JiQJ_3gPlDJBYLh0
+R1
+R2
+w1730065134
+8E:/fyp3/datapath/datapath.v
+FE:/fyp3/datapath/datapath.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/fyp3/datapath/datapath.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/fyp3/datapath/datapath.v|
+!i113 1
+R5
+R6
+vextend
+R0
+!i10b 1
+!s100 D`8n^FoQ4fDlhjWl[Q4OS3
+IPT4Q^bRC?0SHch6JUTKdR1
+R1
+R2
+w1730065083
+8E:/fyp3/extend/extend.v
+FE:/fyp3/extend/extend.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/fyp3/extend/extend.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/fyp3/extend/extend.v|
+!i113 1
+R5
+R6
+vflopr
+R0
+!i10b 1
+!s100 KJ02UL]4RR1Xa`[9J=mJ`3
+Ihm7jSXT2K1Q54_mU]n8j@3
+R1
+R2
+w1730063086
+8E:/fyp3/flipflop/flopr.v
+FE:/fyp3/flipflop/flopr.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/fyp3/flipflop/flopr.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/fyp3/flipflop/flopr.v|
+!i113 1
+R5
+R6
+vmaindec
+!s110 1730126185
+!i10b 1
+!s100 DJS@kZ]RB7giRQiWkIj=]0
+I;zeIGX>?@IEBSn0bWQk1S0
+R1
+R2
+w1730061626
+8E:/fyp3/maindec/maindec.v
+FE:/fyp3/maindec/maindec.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1730126185.000000
+!s107 E:/fyp3/maindec/maindec.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/fyp3/maindec/maindec.v|
+!i113 1
+R5
+R6
+vmux2
+R0
+!i10b 1
+!s100 7_iYfKF:4Z[YRzk4F:Lg31
+IdHYQVG9`NBd01kE5Undl<3
+R1
+R2
+w1730063257
+8E:/fyp3/mux21/mux2.v
+FE:/fyp3/mux21/mux2.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/fyp3/mux21/mux2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/fyp3/mux21/mux2.v|
+!i113 1
+R5
+R6
+vmux3
+R0
+!i10b 1
+!s100 @CHTXn[ln6:FFcbb>m^b80
+IJ5lWf52PiCjmGe>KNJX:B2
+R1
+R2
+w1730063440
+8E:/fyp3/mux31/mux3.v
+FE:/fyp3/mux31/mux3.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/fyp3/mux31/mux3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/fyp3/mux31/mux3.v|
+!i113 1
+R5
+R6
+vregfile
+R0
+!i10b 1
+!s100 @egH`j_`d[=THQ7:LC@Xe1
+I7=geiN5e]R=[7kFCD??Wb0
+R1
+R2
+w1730064865
+8E:/fyp3/regfile/regfile.v
+FE:/fyp3/regfile/regfile.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/fyp3/regfile/regfile.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/fyp3/regfile/regfile.v|
+!i113 1
+R5
+R6
+vsinglcycleP
+R0
+!i10b 1
+!s100 PCe8g2JFb8dO<;i5TL@f92
+IX?:LN4_VN]=mg6BVIP]BA0
+R1
+R2
+Z7 w1730125907
+Z8 8E:/fyp3/scp/quartus file/singlcycleP.v
+Z9 FE:/fyp3/scp/quartus file/singlcycleP.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+Z10 !s107 E:/fyp3/scp/quartus file/singlcycleP.v|
+Z11 !s90 -reportprogress|300|-work|work|-stats=none|E:/fyp3/scp/quartus file/singlcycleP.v|
+!i113 1
+R5
+R6
+nsinglcycle@p
+vsinglcycleP_tb
+R0
+!i10b 1
+!s100 0RR^mHgD3bHBG9S27:a:X2
+IE6lXT^?Oj?27`TFZBPB?<1
+R1
+R2
+R7
+R8
+R9
+L0 50
+R3
+r1
+!s85 0
+31
+R4
+R10
+R11
+!i113 1
+R5
+R6
+nsinglcycle@p_tb

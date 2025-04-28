@@ -1,0 +1,22 @@
+module regfile (
+    input clk,                       // Clock signal
+    input RegWrite,                  // Write enable signal
+    input [4:0] readAddr1,          // Address of the first register to read
+    input [4:0] readAddr2,          // Address of the second register to read
+    input [4:0] writeAddr,          // Address of the register to write to
+    input [31:0] writeData,         // Data to write
+    output [31:0] readData1,        // Data read from the first register
+    output [31:0] readData2         // Data read from the second register
+);
+    reg [31:0] regFile [0:31];      // Register file with 32 registers
+
+    // Read logic
+    assign readData1 = (readAddr1 != 5'b0) ? regFile[readAddr1] : 32'b0; // Read from regFile or 0 for address 0
+    assign readData2 = (readAddr2 != 5'b0) ? regFile[readAddr2] : 32'b0; // Read from regFile or 0 for address 0
+
+    // Write logic
+    always @(posedge clk) begin
+        if (RegWrite && (writeAddr != 5'b0)) // Prevent writing to register 0
+            regFile[writeAddr] <= writeData; // Write data to specified register
+    end
+endmodule

@@ -1,0 +1,15 @@
+E:/fyp3/SingleCycleProcessor/maindec/maindec.v {1 {vlog -work work -stats=none E:/fyp3/SingleCycleProcessor/maindec/maindec.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module maindec
+
+Top level modules:
+	maindec
+
+} {} {}} E:/fyp3/SingleCycleProcessor/maindec/maindec_tb.v {1 {vlog -work work -stats=none E:/fyp3/SingleCycleProcessor/maindec/maindec_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module maindec_tb
+
+Top level modules:
+	maindec_tb
+
+} {} {}}

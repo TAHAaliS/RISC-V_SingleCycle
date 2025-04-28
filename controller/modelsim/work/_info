@@ -1,0 +1,94 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/fyp3/datam/modelsim
+valudec
+Z0 !s110 1731874981
+!i10b 1
+!s100 UU@2IAg2T@`eDT77B]4NX2
+IX]U7IIlm_PYF<B@Km7SSR3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dE:/fyp3/controller/modelsim
+w1730062000
+8E:/fyp3/alu dec/aludec.v
+FE:/fyp3/alu dec/aludec.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1731874981.000000
+!s107 E:/fyp3/alu dec/aludec.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/fyp3/alu dec/aludec.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vcontroller
+Z7 !s110 1734604892
+!i10b 1
+!s100 FIXGRS13Jo77<cQB^JK=N0
+I[_U;28YG3k:cb@6MHd?Zg1
+R1
+Z8 dE:/fyp3/SingleCycleProcessor/controller/modelsim
+w1730062185
+8E:/fyp3/SingleCycleProcessor/controller/controller.v
+FE:/fyp3/SingleCycleProcessor/controller/controller.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z9 !s108 1734604892.000000
+!s107 E:/fyp3/SingleCycleProcessor/controller/controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/fyp3/SingleCycleProcessor/controller/controller.v|
+!i113 1
+R5
+R6
+vmaindec
+R0
+!i10b 1
+!s100 DJS@kZ]RB7giRQiWkIj=]0
+I;zeIGX>?@IEBSn0bWQk1S0
+R1
+R2
+w1730061626
+8E:/fyp3/maindec/maindec.v
+FE:/fyp3/maindec/maindec.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/fyp3/maindec/maindec.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/fyp3/maindec/maindec.v|
+!i113 1
+R5
+R6
+vtb_controller
+R7
+!i10b 1
+!s100 XhLLmkb?n8[Re;UoM6?OQ0
+If0UK>5RIYi?8Pz3Bbi7jA0
+R1
+R8
+w1734604809
+8E:/fyp3/SingleCycleProcessor/controller/controller_tb.v
+FE:/fyp3/SingleCycleProcessor/controller/controller_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 E:/fyp3/SingleCycleProcessor/controller/controller_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/fyp3/SingleCycleProcessor/controller/controller_tb.v|
+!i113 1
+R5
+R6

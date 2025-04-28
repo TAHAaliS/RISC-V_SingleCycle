@@ -1,0 +1,8 @@
+E:/fyp3/mux21/mux2.v {1 {vlog -work work -stats=none E:/fyp3/mux21/mux2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mux2
+
+Top level modules:
+	mux2
+
+} {} {}}

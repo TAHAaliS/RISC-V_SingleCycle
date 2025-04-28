@@ -1,0 +1,66 @@
+module maindec_tb;
+
+    // Inputs
+    reg [6:0] op;
+
+    // Outputs
+    wire [1:0] ResultSrc;
+    wire MemWrite;
+    wire Branch;
+    wire ALUSrc;
+    wire RegWrite;
+    wire Jump;
+    wire [1:0] ImmSrc;
+    wire [1:0] ALUOp;
+
+    // Instantiate the maindec module
+    maindec uut (
+        .op(op),
+        .ResultSrc(ResultSrc),
+        .MemWrite(MemWrite),
+        .Branch(Branch),
+        .ALUSrc(ALUSrc),
+        .RegWrite(RegWrite),
+        .Jump(Jump),
+        .ImmSrc(ImmSrc),
+        .ALUOp(ALUOp)
+    );
+
+    // Test procedure
+    initial begin
+        // Display outputs
+        $monitor("Time = %0d | op = %b | ResultSrc = %b, MemWrite = %b, Branch = %b, ALUSrc = %b, RegWrite = %b, Jump = %b, ImmSrc = %b, ALUOp = %b",
+                  $time, op, ResultSrc, MemWrite, Branch, ALUSrc, RegWrite, Jump, ImmSrc, ALUOp);
+
+        // Test case 1: Load Word (lw)
+        op = 7'b0000011;  // lw opcode
+        #10;
+
+        // Test case 2: Store Word (sw)
+        op = 7'b0100011;  // sw opcode
+        #10;
+
+        // Test case 3: R-type instruction
+        op = 7'b0110011;  // R-type opcode (e.g., ADD)
+        #10;
+
+        // Test case 4: Branch Equal (beq)
+        op = 7'b1100011;  // beq opcode
+        #10;
+
+        // Test case 5: I-type ALU operation (ADDI)
+        op = 7'b0010011;  // I-type ALU opcode (e.g., ADDI)
+        #10;
+
+        // Test case 6: Jump and Link (jal)
+        op = 7'b1101111;  // jal opcode
+        #10;
+
+        // Test case 7: Default case (unknown opcode)
+        op = 7'b1111111;  // unknown opcode
+        #10;
+
+        // End simulation
+        $finish;
+    end
+endmodule

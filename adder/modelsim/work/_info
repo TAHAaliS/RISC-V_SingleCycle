@@ -1,0 +1,31 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/software/Quarus19
+vadder
+!s110 1734603089
+!i10b 1
+!s100 [ImTRZgk_DHh2NaBhWYcf3
+Iigo<UkKWJDm7Vzlh^kQZI3
+VDg1SIo80bB@j0V0VzS_@n1
+dE:/fyp3/SingleCycleProcessor/adder/modelsim
+w1730062540
+8E:/fyp3/SingleCycleProcessor/adder/adder.v
+FE:/fyp3/SingleCycleProcessor/adder/adder.v
+L0 1
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1734603089.000000
+!s107 E:/fyp3/SingleCycleProcessor/adder/adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/fyp3/SingleCycleProcessor/adder/adder.v|
+!i113 1
+o-work work
+tCvgOpt 0

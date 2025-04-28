@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/software/Quarus19
+vmaindec
+Z0 !s110 1734607705
+!i10b 1
+!s100 DJS@kZ]RB7giRQiWkIj=]0
+I<5CIE4[InM<21lF1Z7jLa3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dE:/fyp3/SingleCycleProcessor/maindec/modelsim
+w1730061626
+8E:/fyp3/SingleCycleProcessor/maindec/maindec.v
+FE:/fyp3/SingleCycleProcessor/maindec/maindec.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1734607705.000000
+!s107 E:/fyp3/SingleCycleProcessor/maindec/maindec.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/fyp3/SingleCycleProcessor/maindec/maindec.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vmaindec_tb
+R0
+!i10b 1
+!s100 eY7o4GXh`_<WgIKTTEXl>0
+IKCmWJ6:CCJZa8[5JV?OJO2
+R1
+R2
+w1734430911
+8E:/fyp3/SingleCycleProcessor/maindec/maindec_tb.v
+FE:/fyp3/SingleCycleProcessor/maindec/maindec_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/fyp3/SingleCycleProcessor/maindec/maindec_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/fyp3/SingleCycleProcessor/maindec/maindec_tb.v|
+!i113 1
+R5
+R6

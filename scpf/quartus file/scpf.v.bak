@@ -1,0 +1,10 @@
+module scpf(input clk, reset,
+           output [31:0] WriteData, DataAdr,
+           output MemWrite);
+    wire [31:0] PC, Instr, ReadData;
+    
+    singlcycleP s(clk, reset, PC, Instr, MemWrite, DataAdr,  WriteData, ReadData);
+    imem IM(PC,clk, Instr);
+    datam DM(clk, DataAdr, WriteData, MemWrite, ReadData);
+	 
+ endmodule
